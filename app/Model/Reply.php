@@ -8,7 +8,7 @@ use App\User;
 class Reply extends Model
 {
 
-
+   protected $guarded = [];
 
     public function question()
     {
